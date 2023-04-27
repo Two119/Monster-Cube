@@ -26,3 +26,7 @@ NOTE: The screenshots and cover page of the game are a bit old, so the music att
 Have fun!
 
 The pre-compiled game is available on my itch: https://two119.itch.io/monster-cube
+# To compile the game from source
+You need SDL2, SDL_mixer, SDL_ttf and SDL_gfx installed with mingw32 g++ (keep SDL_gfx outside the SDL2 folder).
+Then you can run the python file run.py to compile the game and start it if possible.
+NOTE: In case compilation fails, run.py will run the existing test.exe from the last successful compilation.
